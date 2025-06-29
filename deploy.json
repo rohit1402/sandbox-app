@@ -1,0 +1,21 @@
+{
+  "type": "node",
+  "deployBranch": "main",
+  "ec2": {
+    "host": "xxx.xxx.xxx.xxx",
+    "user": "ubuntu",
+    "deployPath": "/home/ubuntu/app"
+  },
+  "deployment": {
+    "appName": "app",
+    "port": 3000
+  },
+  "env": {
+    "general": {
+      "NODE_ENV": "production",
+      "PORT": "3000"
+    },
+    "private": []
+  },
+  "build": "npm run build"
+}
