@@ -1,0 +1,21 @@
+{
+  "name": "sandbox-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && deploylify generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "deploylify": "1.0.0",
+    "express": "5.1.0",
+    "typescript": "5.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3"
+  }
+}
